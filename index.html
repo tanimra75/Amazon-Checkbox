@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Amazon Checkbox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="styling.css" type="text/css">
+    
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <div class="details">
+                    <div class="address">
+                        <div class="from-group">
+                            <label for="address">Address:</label><input type="text" name="address" maxlength="100" id="address" placeholder="Address" size="30px" />
+                        </div>
+                        <div class="from-group">
+                             <label for="post">Postcode:</label><input type="text" name="postcode" maxlength="100" id="post" placeholder="Postcode" size="30px" />
+                        </div>
+                        <div class="from-group">
+                             <label for="city">City:</label><input type="text" name="city" maxlength="100" id="city" placeholder="City" size="30px" />
+                        </div>
+                    </div>
+                    <div class="shipping">
+                        <div>Choose your shipping method:</div>
+                        <div>
+                            <select>
+                                <option>One-day Shipping</option>
+                                <option>Two-days Shipping</option>
+                                <option>Free Supper Shipping</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <div>Choose your ayment method:</div>
+                        <div>
+                            <label>Bkash<input type="radio" name="payment"></label>
+                            <label>Nagad<input type="radio" name="payment"></label>
+                            <label>Rocket<input type="radio" name="payment"></label>
+                            <label>Cash on Delivary<input type="radio" name="payment"></label>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <div>
+                            <label>Sign me up for email updates<input type="checkbox" checked /></label>
+                            <label>Securely save my payment details<input type="checkbox" name="checkbox" checked /></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments">
+                    <label for="textarea">Comments:</label>
+                    <textarea rows="5" cols="20" id="textarea" placeholder="Please Enter Your Comments......."></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="button" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
